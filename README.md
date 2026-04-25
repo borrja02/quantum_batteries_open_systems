@@ -1,2 +1,12 @@
-# quantum_batteries_open_systems
-Analysis of Quantum Batteries (QBs) within the GKSL framework. This work explores the geometric origin of power speedup via Quantum Speed Limits and compares Dicke vs. QHO models. We demonstrate the resilience of continuous-variable systems against thermal decoherence, identifying QHOs as optimal candidates for stable energy storage.
+# Quantum batteries as open systems.
+This research explores the operational limits and stability of Quantum Batteries (QBs) within the framework of non-equilibrium open-system dynamics. The central objective is to characterize the competition between coherent energy transfer and dissipative decay, establishing a rigorous comparison between discrete and continuous-variable architectures. By utilizing the GKSL master equation formalism, the study demonstrates that the "quantum advantage" in charging power is fundamentally a geometric effect rooted in the saturation of Mandelstam-Tamm and Margolus-Levitin speed limits.
+
+A significant portion of the work is dedicated to the analytical derivation of the steady-state ergotropy in both Two-Level Systems (TLS) and Quantum Harmonic Oscillators (QHOs). The results reveal a fundamental structural decoupling inherent to linear architectures: while discrete systems suffer from a thermal collapse of work extraction as the reservoir temperature increases, harmonic batteries exhibit a resilience where the work-potential remains protected by the system's underlying symmetry. This identified robustness positions continuous-variable systems as the optimal candidates for high-temperature energy storage, providing a stable energy density that remains immune to the fluctuations of the charging reservoir.
+
+Beyond the comparison of models, the research addresses the physical resources required for power enhancement, identifying Hamiltonian collectivity—the capacity to implement non-local unitaries—as the primary operational resource rather than the mere presence of entanglement. The analysis concludes with an outlook on non-Markovian stabilization mechanisms, suggesting that engineering environmental spectral densities could enable long-term energy retention through decoherence-protected subspaces.
+
+## Key Analytical Formulations
+The extractable work is quantified through the decomposition of ergotropy into diagonal and coherent components, ensuring that only non-passive states contribute to the battery's utility. In the harmonic regime, the dynamical response is governed by a closed system of Heisenberg-Langevin equations where the first moments decouple from thermal waste, leading to a steady-state ergotropy defined strictly by the ratio of driving strength to coupling. This contrast is further highlighted by the steady-state solution for TLS architectures, where ergotropy is suppressed by the mean number of excitations in the bath.
+
+**Author**: Borja Álvarez Reguera
+**Date**: April 2026
